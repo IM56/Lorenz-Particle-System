@@ -13,7 +13,7 @@ so that the application has access to the necessary header files.</p>
 entirely on the GPU. Particle billboards are dynamically generated in the vertex shader without the use of a geometry shader.</p>
 
 <p>Whilst the number of particles in the system can be edited by the user, the maximum number of particles is set to 0.5M by default.
-This can be edited in the source code by changing the variable `<ParticleSystemApp::m_maxNumParticles>` - the application has been
+This can be edited in the source code by changing the variable <code>ParticleSystemApp::m_maxNumParticles</code> - the application has been
 shown to handle at least 3M particles at once.</p>
 
 <h2>Camera controls</h2>
